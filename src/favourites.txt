@@ -2,3 +2,5 @@ dog
 cat
 fish
 bird
+pig
+giraffe

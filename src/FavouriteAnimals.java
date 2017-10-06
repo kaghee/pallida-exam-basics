@@ -39,7 +39,9 @@ public class FavouriteAnimals {
         Path filepath = Paths.get("favourites.txt");
         try {
             List<String> animals = Files.readAllLines(filepath);
-            animals.add(animal);
+            if (!animals.contains(animal)) {
+                animals.add(animal);
+            }
             Files.write(filepath, animals);
 
         } catch (IOException e) {
