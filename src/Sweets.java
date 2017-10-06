@@ -1,9 +1,11 @@
 public class Sweets {
-    int price;
+    double price;
     int sugarAmount;
+    int stock;
 
     public Sweets() {
         this.price = 20;
         this.sugarAmount = 10;
+        this.stock = 0;
     }
 }
