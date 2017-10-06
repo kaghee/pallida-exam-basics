@@ -36,4 +36,4 @@ A function is a piece of code that serves a specific function (wow :D). We can c
 
 ### What is the constructor? When it is used? [2p]
 #### Your answer:
-A constructor is used for creating instances of an object. It is similar to a method, it needs to be called, but instead of returning something it creates a new object of the given type. The name of the constructor has to be the same as the name of the class.
+A constructor is used for creating instances of an object. It is similar to a method, it needs to be called, but instead of returning something it creates a new object of the given class. The name of the constructor has to be the same as the name of the class.
