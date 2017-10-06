@@ -43,11 +43,8 @@ public class FavouriteAnimals {
                 animals.add(animal);
             }
             Files.write(filepath, animals);
-
         } catch (IOException e) {
             System.out.println("Unable to read file");
         }
-
     }
-
 }

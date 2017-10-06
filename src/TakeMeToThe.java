@@ -1,5 +1,5 @@
-//public class TakeMeToThe {
-//    public static void main(String[] args) {
+public class TakeMeToThe {
+    public static void main(String[] args) {
 //        // We run a Candy shop where we sell candies and lollipops
 //        // One lollipop's price is 10$
 //        // And it made from 5gr of sugar
@@ -18,7 +18,10 @@
 //        // If we buy sugar we can raise the CandyShop's amount of sugar and reduce the income by the price of it.
 //        // The CandyShop should be represented as string in this format:
 //        // "Inventory: 3 candies, 2 lollipops, Income: 100, Sugar: 400gr"
-//        candyShop = new CandyShop(300);
+        CandyShop  candyShop = new CandyShop(300);
+        candyShop.createSweets("candy");
+        candyShop.createSweets("lollipop");
+        System.out.println(candyShop.sugarStock);
 //        candyShop.createSweets(CandyShop.CANDY);
 //        candyShop.createSweets(CandyShop.CANDY);
 //        candyShop.createSweets(CandyShop.LOLLIPOP);
@@ -39,5 +42,5 @@
 //        System.out.println(candyShop);
 //        // Should print out:
 //        // "Invetory: 1 candies, 1 lollipops, Income: 5$, Sugar: 315gr"
-//    }
-//}
+    }
+}
