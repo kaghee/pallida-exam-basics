@@ -44,7 +44,6 @@ public class CandyShop {
         income -= sugAmount / 10;
     }
 
-
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
@@ -52,6 +51,4 @@ public class CandyShop {
                     "$, Sugar: " + sugarStock + "gr");
         return sb.toString();
     }
-
-    // Invetory: 2 candies, 2 lollipops, Income: 0$, Sugar: 270gr
 }
